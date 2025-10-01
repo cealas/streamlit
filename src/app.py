@@ -65,6 +65,5 @@ if st.button("Realice Predicción"):
     pred_class = class_dict[prediction]
     st.success("Resultado para el modelo de regresión lineal:")
     st.write("Prediction:", pred_class)
-    #
-    # la precision del resultado 
-    # resultados para otro 
+    st.title(Precision")
+    st.write("Precision:", round(accuracy*100, 2), "%")
